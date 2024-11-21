@@ -1,3 +1,4 @@
+
 console.log("Привет");
 const age = 12;
 const name = "Artem";
