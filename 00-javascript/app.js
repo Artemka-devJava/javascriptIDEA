@@ -67,3 +67,43 @@ console.log(arr)
     //Удалить последний
 console.log(arr.pop());
 console.log(arr)
+
+//Классы в JavaScript
+class Person{
+    age;
+    sex;
+
+    constructor(age, sex) {
+        this.age = age;
+        this.sex = sex;
+    }
+
+
+    get age() {
+        return this.age;
+    }
+
+    set age(value) {
+        this.age = value;
+    }
+
+    get sex() {
+        return this.sex;
+    }
+
+    set sex(value) {
+        this.sex = value;
+    }
+
+    move(place){
+        console.log(`Go to ${place}`);
+        return 1;
+    }
+}
+
+let i = new Person(12,"female");
+console.log(i);
+console.log(i.age);
+i.age = 23;
+console.log(i);
+console.log(i.move("Привет") + 2);
