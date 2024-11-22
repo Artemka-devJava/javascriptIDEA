@@ -13,4 +13,5 @@ console.log("is 5 > 3",5>3);
 console.log( 5 == "5"); //true
 console.log( 5 === "5"); //false
 
-//Проверка
+//Проверка операторы
+console.log(2 > 3 && 2 < 4);
