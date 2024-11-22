@@ -51,4 +51,19 @@ switch (name2){
 
 let  a = 12;
 a > 1 ? console.log("тру") : console.log("false");
-console.log("Доступ",a < 18 ? "Ограничен" : "Разрешон")
+console.log("Доступ",a < 18 ? "Ограничен" : "Разрешон");
+let status = a === 12 ? "1" : "2";
+console.log(status)
+
+//Array
+const arr = [1,2,3,4,4,5,5,5,5,3,41];
+console.log(arr.at(3));
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i])
+}
+//добавить элемент
+arr.push(34);
+console.log(arr)
+    //Удалить последний
+console.log(arr.pop());
+console.log(arr)
