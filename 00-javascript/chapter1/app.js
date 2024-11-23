@@ -63,6 +63,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 //добавить элемент
 arr.push(34);
+arr.push("В один масив и цифры и строки");
 console.log(arr)
     //Удалить последний
 console.log(arr.pop());
