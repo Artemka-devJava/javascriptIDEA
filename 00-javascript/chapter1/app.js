@@ -100,6 +100,15 @@ class Person{
         console.log(`Go to ${place}`);
         return 1;
     }
+    method(x){
+        let a;
+        if (x % 2 == 0){
+            a = true;
+        }else {
+            a = false;
+        }
+        return a;
+    }
 }
 
 let i = new Person(12,"female");
@@ -108,14 +117,4 @@ console.log(i.age);
 i.age = 23;
 console.log(i);
 console.log(i.move("Привет") + 2);
-
-method(x){
-let a;
-let b;
-if (x % 2 == 0){
-a = true;
-}else {
-a = false;
-}
-return a;
-}
+console.log(i.method(10));
