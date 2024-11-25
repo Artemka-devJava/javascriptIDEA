@@ -100,6 +100,7 @@ class Person{
         console.log(`Go to ${place}`);
         return 1;
     }
+    //Метод проверки на чётность
     method(x){
         let a;
         if (x % 2 == 0){
@@ -118,3 +119,5 @@ i.age = 23;
 console.log(i);
 console.log(i.move("Привет") + 2);
 console.log(i.method(10));
+console.log("Добавил VSCode")
+console.log("Добавил IDEA")
