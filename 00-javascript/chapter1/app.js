@@ -121,3 +121,4 @@ console.log(i.move("Привет") + 2);
 console.log(i.method(10));
 console.log("Добавил VSCode")
 console.log("Добавил IDEA")
+console.log("Добавил IDEA")
