@@ -2,7 +2,8 @@
 console.log("Привет");
 const age = 12;
 const name = "Artem";
-let name1 = "Serega";
+let name1 = "Mike";
+console.log(name1)
 name1 = "tol9n";
 console.log(age, name, name1);
 
@@ -11,8 +12,7 @@ console.log("is 5 > 3",5>3);
 // надо сравнивать через строгое сравнение "==="
 
 console.log( 5 == "5"); //true
-console.log( 5 === "5"); //false
-
+console.log("5" === 5); //false
 //Проверка операторы
 console.log(2 > 3 && 2 < 4);
 //Условия
@@ -32,7 +32,7 @@ if (1 < 3){
     console.log("Else")
 }else (console.log("Ничего"))
 
-//Swichcase
+//Switch case
 let name2 = "Sergey";
 switch (name2){
     case "Artem": {
@@ -51,7 +51,7 @@ switch (name2){
 
 let  a = 12;
 a > 1 ? console.log("тру") : console.log("false");
-console.log("Доступ",a < 18 ? "Ограничен" : "Разрешон");
+console.log("Доступ",a < 18 ? "Ограничен" : "Разрешён");
 let status = a === 12 ? "1" : "2";
 console.log(status)
 
@@ -63,7 +63,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 //добавить элемент
 arr.push(34);
-arr.push("В один масив и цифры и строки");
+arr.push("В один массив и цифры и строки");
 console.log(arr)
     //Удалить последний
 console.log(arr.pop());
