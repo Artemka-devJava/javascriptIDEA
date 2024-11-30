@@ -108,3 +108,4 @@ console.log(i.age);
 i.age = 23;
 console.log(i);
 console.log(i.move("Привет") + 2);
+console.log(i.move("Привет") + 2);
