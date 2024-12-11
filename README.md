@@ -26,3 +26,5 @@ TrueNas server - установил.
 Initial new branch
 
 Опять ночь, и толку 0.
+ПРиве 
+
