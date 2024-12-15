@@ -25,6 +25,19 @@ TrueNas server - установил.
 
 Initial new branch
 
-Опять ночь, и толку 0.
-ПРиве 
+*Опять ночь, и толку 0.
+Првиет*
+
+**(A) dsadasd**
+
+
+```java
+{
+    int a = 1;
+    System.out.println(a);
+    }
+```
+
+
+
 
