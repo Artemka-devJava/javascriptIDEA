@@ -97,8 +97,7 @@ class Person{
     }
 
     move(place){
-        console.log(`Go to ${place}`);
-        return 1;
+        return console.log(`Go to ${place}`);
     }
 }
 
@@ -106,9 +105,7 @@ let i = new Person(12,"female");
 console.log(i);
 console.log(i.age);
 i.age = 23;
+i.move(2);
 console.log(i);
-console.log(i.move("Привет") + 2);
-console.log(i.move("Привет") + 2);
-console.log(i.move("Привет") + 2);
-console.log(i.move("Привет") + 2);
-console.log(i.move("Привет") + 2);
+i.move("Привет");
+
